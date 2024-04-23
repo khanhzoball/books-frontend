@@ -1,0 +1,26 @@
+.book-list {
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+  }
+  
+.book-list li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.book-title {
+    font-weight: bold;
+}
+
+.book-price {
+    color: #007bff; /* or any other color you prefer */
+}
+
+
+.book-container {
+    flex-direction: column;
+    display: flex;
+}
